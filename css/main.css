@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+div{
+    background-image: url("../img/Free\ Photo\ _\ Grunge\ background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div h1 {
+   
+    padding-top: 50px;
+    margin-top: 0;
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Anton', sans-serif;
+}
+div h3 {
+    
+    font-size: 50px;
+   font-family: 'Times New Roman', Times, serif;
+}
+div p{
+    
+    font-size: 30px;
+    
+}
+#demo{
+    padding-top: 10px;
+}
+div button {
+    width: 250px;
+    height: 75px;
+    background-color:darkgreen;
+    color: white;
+    transition: all 1s;
+    border: 5px solid black ;
+}
+div button:hover{
+    
+  
+    background-color: chocolate;
+}
